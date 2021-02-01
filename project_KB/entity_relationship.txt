@@ -1,0 +1,44 @@
+
+EXCEL表相关字段注释
+ 项目名称 Name
+ 项目简介 ShortDescription
+ 适用人群 ApplyPeople
+ 参考价格 Price
+ 标识 Identification
+ 项目特点 Features
+ 关注度 DegreeLevel
+ 安全度 SafeLevel
+ 复杂度 ComplexLevel
+ 关键词 KeyWords
+ 功效 OperationStandards
+ 适应症 AdaptiveSymptoms
+ 禁忌人群 TabooCrowd
+ 手术优点 OperationAdvantage
+ 手术缺点 OperationDefect
+ 效果持续时间 DurationTime
+ 操作时长 OperationDuration
+ 恢复时间 Recoveries
+ 治疗周期 TreatmentCycle
+ 操作方式 OperationMode
+ 麻醉方式 Narcosis
+ 操作资质 OperationQualification
+ 疼痛感 Painperception
+ 术前准备 Preparation
+
+
+
+实体关系
+Name<---->ShortDescription  # 项目简介
+Name<--->ApplyPeople  # 项目适应人群
+Name<---->Price  # 项目价格
+Name<---->Features  # 项目特点
+Name<---->SafeLevel  # 手术安全度
+Name<---->ComplexLevel  # 手术复杂度
+Name<---->OperationStandards  # 功效
+Name<---->TabooCrowd  # 不适用人群
+Name<---->OperationAdvantage  # 手术优点
+Name<---->OperationDefect  # 手术缺点
+Name<---->DurationTime  # 效果持续时间
+Name<---->Recoveries  # 恢复时间
+Name<---->Painperception  # 手术疼痛感
+Name<---->Preparation  # 术前准备
